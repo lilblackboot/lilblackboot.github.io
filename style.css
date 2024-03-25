@@ -1,17 +1,42 @@
 *{
     box-sizing: border-box;
+    background-color:rgb(240, 240, 240);
 }
 
 .header{
     max-height: 250px;
+    padding: 0px;
+    margin: 0px;
     width: 100%;
-    background-color: pink;
+    background-color:white;
     display: flex;
     justify-content: center;
     align-content: center;
 }
 
 .header-img{
-    width: 50%;
+    width: 60%;
     padding: 15px;
+    /*background-color: #F49CBB;*/
+    background-color: white;
+}
+
+a,nav{
+    text-decoration: none;
+    background-color:#DD2D4A ;
+    color: white;
+}
+
+a{
+    padding: 13px;
+    font-size: auto;
+}
+
+nav{
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
 }
