@@ -1,17 +1,17 @@
-
+*{
+    box-sizing: border-box;
+}
 
 .header{
     max-height: 250px;
     width: 100%;
     background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 .header-img{
-    display: block;
     width: 50%;
-    margin-left: auto;
-    margin-top: auto;
-    padding-top: 10px;
-    margin-right: auto;
-    justify-content: center;
+    padding: 15px;
 }
